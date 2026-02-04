@@ -1,0 +1,33 @@
+[
+   {
+      "id": "1",
+      "title": "Anirudh Live",
+      "location": "NYAYO",
+      "date": "12-02-2026",
+      "category": "SPORT",
+      "price": "FREE",
+      "image": "https://i.pinimg.com/736x/e6/4d/e7/e64de7e676c949e7e2a14053c4745fbe.jpg",
+      "link": "https://wa.me"
+    },
+
+    {
+      "id": "2",
+      "title": "Nairobi Tech Expo",
+      "location": "KICC",
+      "date": "20-03-2026",
+      "category": "TECH",
+      "price": "500 KSH",
+      "image": "https://i.pinimg.com/736x/9f/63/01/9f6301d8f64d7542d0235036dd5c1973.jpg",
+      "link": "https://wa.me"
+    },
+      {
+      "id": "3",
+      "title": "Nairobi Tech Expo",
+      "location": "KICC",
+      "date": "20-03-2026",
+      "category": "TECH",
+      "price": "500 KSH",
+      "image": "https://i.pinimg.com/736x/9f/63/01/9f6301d8f64d7542d0235036dd5c1973.jpg",
+      "link": "https://wa.me"
+    }
+  ]

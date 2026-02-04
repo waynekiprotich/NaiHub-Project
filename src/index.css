@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bcbcbc;
+    padding: 1rem 5%;
+    border-bottom: 2px solid #888;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px;
+    padding: 30px 10%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.event-card {
+    background-color: #888888;
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: black;
+}
+
+.event-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+.event-info {
+    background-color: #a0a0a0;
+    border-radius: 20px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+.event-info p {
+    margin-bottom: 2px;
+}
+
+.event-info a {
+    color: #000;
+    word-break: break-all;
+    font-size: 0.8rem;
+}
+
+
+.add-event-page {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.add-event-page h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.input-label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.event-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.styled-select, .event-form input {
+    width: 100%;
+    max-width: 600px;
+    padding: 25px;
+    border-radius: 50px;
+    border: none;
+    background-color: #e0e0e0;
+    text-align: center;
+    text-align-last: center;
+    font-size: 1rem;
+    outline: none;
+}
+
+.event-form input::placeholder {
+    color: #666;
+}
+
+
+.button-container {
+    margin-top: 30px;
+}
+
+.confirm-btn {
+    background-color: #00c853;
+    color: white;
+    padding: 15px 80px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.confirm-btn:hover {
+    background-color: #00a846;
+}
