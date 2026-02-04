@@ -1,10 +1,14 @@
 import EventCard from './EventCard.jsx';
 
 function EventList({ events, category }) {
+  
  
-  const filteredEvents = category === "All" 
-    ? events 
-    : events.filter(event => event.category === category);
+  let filteredEvents;
+      if (category === "All") {
+        filteredEvents = events;
+      } else {
+        filteredEvents = events.filter(event => event.category === category);
+      }
 
   return (
     <div className="event-grid">

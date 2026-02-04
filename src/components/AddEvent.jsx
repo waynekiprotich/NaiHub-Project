@@ -2,8 +2,11 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 function AddEvent({ onAddEvent }) {
+
   const navigate = useNavigate();
+
   const [isFree, setIsFree] = useState(true);
+  
   const [formData, setFormData] = useState({
     title: "",
     location: "",
