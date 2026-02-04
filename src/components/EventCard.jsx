@@ -12,7 +12,7 @@ function EventCard({ event }) {
         <p>Date: {event.date}</p>
         <p>{event.category}</p>
         <p>ENTRANCE:{event.price}</p>
-        <p><a href={event.link}>click Link</a></p>
+        <p><a href={event.contact}>EVENT LINK </a></p>
       </div>
     </div>
   );
